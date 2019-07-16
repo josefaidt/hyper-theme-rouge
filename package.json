@@ -1,0 +1,13 @@
+{
+  "name": "hyper-theme-rouge",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "@josefaidt/eslint-config"
+  },
+  "devDependencies": {
+    "@josefaidt/eslint-config": "^0.1.8",
+    "eslint": "^6.0.1"
+  }
+}

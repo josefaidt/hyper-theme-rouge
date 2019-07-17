@@ -2,6 +2,7 @@ const colors = {
   main: {
     bg: '#172030',
     fg: '#b8bcc6',
+    highlight: '#91d1bd10',
   },
   ansi: {
     black: '#374E73',
@@ -31,14 +32,17 @@ exports.decorateConfig = config => {
     cursorBlink: true,
     colors: colors.ansi,
     cursorColor: colors.ansi.red,
+    selectionColor: colors.main.highlight,
+    // borderColor: colors.ansi.red,
+    cursorAccentColor: colors.main.bg,
     padding: '0.2rem 0.8rem',
     termCSS: `${config.termCSS || ''}`,
     css: `
+      ${config.css || ''}
       .line {
         color: ${colors.fg};
         background: rbga(23,32,48, 0.8);
       }
-      ${config.css || ''}
     `,
   })
 }

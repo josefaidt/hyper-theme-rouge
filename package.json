@@ -1,17 +1,20 @@
 {
   "name": "hyper-theme-rouge",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "license": "MIT",
+  "author": "Josef Aidt <josef.aidt@gmail.com>",
   "eslintConfig": {
     "extends": "@josefaidt/eslint-config"
   },
+  "repository": "https://github.com/josefaidt/hyper-rouge-theme",
   "devDependencies": {
     "@josefaidt/eslint-config": "^0.1.8",
     "eslint": "^6.0.1"
   },
   "keywords": [
     "hyper-theme",
+    "hyper.js",
     "hyper",
     "rouge",
     "rouge-theme"
